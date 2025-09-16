@@ -1,2 +1,68 @@
-# Image-Organizer-
-A face-based photo organizer for your personal image collection. This Python tool uses OpenCV to detect faces and automatically separates images with people into a People folder, helping you clean and organize unstructured photo libraries with ease. Perfect for personal photo management.
+# 🖼️ Image Separator
+
+**Image Separator** is a Python-based tool that helps you **automatically classify and separate images** based on their contents using face detection. It's designed to organize images from a large dataset into separate folders like **People**, **Dataset**, and **Output**, making it easier for users to work with image-based projects.
+
+---
+
+## 📁 Folder Structure
+
+Before running the script, make sure to create the following directories in the root of your project:
+
+/Image_Separator
+│
+
+├── Dataset/ # Place all input images here
+
+├── People/ # Images with human faces will be moved here, crop them so that they can be used to make encodings.
+
+├── Output/ # Processed or categorized images (optional usage)
+
+└── image_separator.py # Main script
+
+
+---
+
+## 🚀 Features
+
+- 🔍 Detects and filters images containing human faces  
+- 🗂️ Moves images with faces to the `People/` folder  
+- 🧹 Keeps your datasets clean and organized
+
+---
+
+## ⚙️ How to Use
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Devid06/Image_Separator.git
+   cd Image_Separator
+Install dependencies:
+```
+pip install opencv-python
+```
+Add your images:
+
+Place all images you want to process in the Dataset/ folder.
+
+Run the script:
+```
+python image_separator.py
+```
+Check results:
+
+Images with detected faces will be moved to the Output folder.
+
+🧠 How It Works
+The script uses OpenCV's Haar Cascade Classifier to detect faces in each image inside the Dataset/ folder.
+If a face is found, the image is automatically moved to the People/ directory for further use.
+
+📌 Requirements
+Python 3.x
+OpenCV (opencv-python)
+
+👤 Author
+
+Himanshu Agnihotri
+
+- **GitHub**: [Himanshu Agnihotri](https://github.com/Devid06)
+- **LinkedIn**: [Himanshu Agnihotri](https://www.linkedin.com/in/himanshu-agnihotri26/)

@@ -60,9 +60,5 @@ If a face is found, the image is automatically moved to the People/ directory fo
 Python 3.x
 OpenCV (opencv-python)
 
-👤 Author
-
-Himanshu Agnihotri
-
-- **GitHub**: [Himanshu Agnihotri](https://github.com/Devid06)
-- **LinkedIn**: [Himanshu Agnihotri](https://www.linkedin.com/in/himanshu-agnihotri26/)
+👤 Author : Raghav Patidar
+- **LinkedIn**: [Raghav Patidar](www.linkedin.com/in/raghav-patidar-9954a52b8)

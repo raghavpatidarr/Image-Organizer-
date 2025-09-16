@@ -34,7 +34,7 @@ Before running the script, make sure to create the following directories in the 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Devid06/Image_Separator.git
+   git clone https://github.com/raghavpatidarr/Image_Separator.git
    cd Image_Separator
 Install dependencies:
 ```
